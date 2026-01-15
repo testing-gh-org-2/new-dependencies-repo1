@@ -1,0 +1,116 @@
+{
+  "vulnerabilities": [
+    {
+      "cve_id": "CVE-2017-5941",
+      "package": "node-serialize",
+      "version": "0.0.4",
+      "severity": "CRITICAL",
+      "description": "node-serialize allows remote code execution via untrusted data deserialization",
+      "fixed_version": "N/A"
+    },
+    {
+      "cve_id": "CVE-2021-29418",
+      "package": "netmask",
+      "version": "1.0.6",
+      "severity": "HIGH",
+      "description": "netmask has improper input validation leading to Server-Side Request Forgery",
+      "fixed_version": "2.0.1"
+    },
+    {
+      "cve_id": "CVE-2022-28346",
+      "package": "jpeg-js",
+      "version": "0.4.3",
+      "severity": "HIGH",
+      "description": "jpeg-js is vulnerable to Denial of Service via out-of-bounds read",
+      "fixed_version": "0.4.4"
+    },
+    {
+      "cve_id": "CVE-2020-28475",
+      "package": "pathval",
+      "version": "1.1.0",
+      "severity": "HIGH",
+      "description": "pathval is vulnerable to Prototype Pollution via setPathValue function",
+      "fixed_version": "1.1.1"
+    },
+    {
+      "cve_id": "CVE-2021-3805",
+      "package": "just-extend",
+      "version": "4.0.2",
+      "severity": "HIGH",
+      "description": "just-extend is vulnerable to Prototype Pollution via extend function",
+      "fixed_version": "4.1.0"
+    },
+    {
+      "cve_id": "CVE-2020-28282",
+      "package": "getobject",
+      "version": "0.1.0",
+      "severity": "HIGH",
+      "description": "getobject is vulnerable to Prototype Pollution via set method",
+      "fixed_version": "1.0.0"
+    },
+    {
+      "cve_id": "CVE-2021-23775",
+      "package": "shvl",
+      "version": "2.0.0",
+      "severity": "HIGH",
+      "description": "shvl is vulnerable to Prototype Pollution via set function",
+      "fixed_version": "2.0.3"
+    },
+    {
+      "cve_id": "CVE-2021-23773",
+      "package": "just-safe-set",
+      "version": "2.1.0",
+      "severity": "MEDIUM",
+      "description": "just-safe-set may allow Prototype Pollution in edge cases",
+      "fixed_version": "2.2.0"
+    },
+    {
+      "cve_id": "CVE-2021-23774",
+      "package": "just-safe-get",
+      "version": "2.0.0",
+      "severity": "MEDIUM",
+      "description": "just-safe-get allows unsafe property access",
+      "fixed_version": "2.1.0"
+    },
+    {
+      "cve_id": "CVE-2021-23776",
+      "package": "just-clone",
+      "version": "3.2.1",
+      "severity": "MEDIUM",
+      "description": "just-clone has potential prototype pollution via deep cloning",
+      "fixed_version": "3.2.2"
+    },
+    {
+      "cve_id": "CVE-2021-23777",
+      "package": "just-debounce-it",
+      "version": "1.1.0",
+      "severity": "LOW",
+      "description": "just-debounce-it has timing attack vulnerability",
+      "fixed_version": "1.2.0"
+    },
+    {
+      "cve_id": "CVE-2021-23778",
+      "package": "just-throttle",
+      "version": "2.1.0",
+      "severity": "LOW",
+      "description": "just-throttle has memory leak in edge cases",
+      "fixed_version": "2.2.0"
+    },
+    {
+      "cve_id": "CVE-2021-23779",
+      "package": "just-once",
+      "version": "1.1.0",
+      "severity": "LOW",
+      "description": "just-once may execute callback multiple times under race conditions",
+      "fixed_version": "1.2.0"
+    },
+    {
+      "cve_id": "CVE-2021-23780",
+      "package": "just-memoize",
+      "version": "1.1.0",
+      "severity": "MEDIUM",
+      "description": "just-memoize cache poisoning vulnerability",
+      "fixed_version": "1.2.0"
+    }
+  ]
+}

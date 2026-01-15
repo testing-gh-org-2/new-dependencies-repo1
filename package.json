@@ -1,0 +1,36 @@
+{
+  "name": "e2e-stageaz-new-data",
+  "version": "1.0.0",
+  "description": "Test project for dependency and vulnerability scanning",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "node-serialize": "0.0.4",
+    "netmask": "1.0.6",
+    "jpeg-js": "0.4.3",
+    "pathval": "1.1.0",
+    "just-extend": "4.0.2",
+    "getobject": "0.1.0",
+    "tinyqueue": "2.0.3",
+    "shvl": "2.0.0",
+    "just-safe-set": "2.1.0",
+    "just-safe-get": "2.0.0",
+    "just-clone": "3.2.1",
+    "just-debounce-it": "1.1.0",
+    "just-throttle": "2.1.0",
+    "just-once": "1.1.0",
+    "just-memoize": "1.1.0",
+    "just-pick": "2.1.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "testing",
+    "vulnerabilities",
+    "security"
+  ],
+  "author": "Test User",
+  "license": "MIT"
+}
