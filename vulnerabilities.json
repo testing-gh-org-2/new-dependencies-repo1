@@ -9,6 +9,14 @@
       "fixed_version": "N/A"
     },
     {
+      "cve_id": "CVE-2021-23873",
+      "package": "just-pick",
+      "version": "2.1.0",
+      "severity": "MEDIUM",
+      "description": "just-pick allows prototype property access via picked keys",
+      "fixed_version": "2.2.0"
+    },
+    {
       "cve_id": "CVE-2021-29418",
       "package": "netmask",
       "version": "1.0.6",
@@ -111,6 +119,742 @@
       "severity": "MEDIUM",
       "description": "just-memoize cache poisoning vulnerability",
       "fixed_version": "1.2.0"
+    },
+    {
+      "cve_id": "CVE-2021-23781",
+      "package": "just-diff",
+      "version": "3.0.2",
+      "severity": "MEDIUM",
+      "description": "just-diff prototype pollution via diff operations on nested objects",
+      "fixed_version": "3.1.0"
+    },
+    {
+      "cve_id": "CVE-2021-23782",
+      "package": "just-diff-apply",
+      "version": "3.0.0",
+      "severity": "HIGH",
+      "description": "just-diff-apply allows prototype pollution when applying diffs",
+      "fixed_version": "3.1.0"
+    },
+    {
+      "cve_id": "CVE-2021-23783",
+      "package": "just-compare",
+      "version": "1.3.0",
+      "severity": "LOW",
+      "description": "just-compare has comparison bypass on circular references",
+      "fixed_version": "1.4.0"
+    },
+    {
+      "cve_id": "CVE-2021-23784",
+      "package": "just-curry-it",
+      "version": "3.1.0",
+      "severity": "LOW",
+      "description": "just-curry-it argument injection in edge cases",
+      "fixed_version": "3.2.0"
+    },
+    {
+      "cve_id": "CVE-2021-23785",
+      "package": "just-flatten-it",
+      "version": "3.2.0",
+      "severity": "MEDIUM",
+      "description": "just-flatten-it stack overflow on deeply nested arrays",
+      "fixed_version": "3.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23786",
+      "package": "just-unique",
+      "version": "4.2.0",
+      "severity": "LOW",
+      "description": "just-unique has incorrect uniqueness check on object references",
+      "fixed_version": "4.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23787",
+      "package": "just-pluck-it",
+      "version": "1.1.1",
+      "severity": "MEDIUM",
+      "description": "just-pluck-it allows unauthorized property access",
+      "fixed_version": "1.2.0"
+    },
+    {
+      "cve_id": "CVE-2021-23788",
+      "package": "just-map-object",
+      "version": "2.3.0",
+      "severity": "MEDIUM",
+      "description": "just-map-object prototype pollution via mapping operations",
+      "fixed_version": "2.4.0"
+    },
+    {
+      "cve_id": "CVE-2021-23789",
+      "package": "just-filter-object",
+      "version": "3.2.0",
+      "severity": "MEDIUM",
+      "description": "just-filter-object allows filtering bypass on inherited properties",
+      "fixed_version": "3.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23790",
+      "package": "just-typeof",
+      "version": "3.2.0",
+      "severity": "LOW",
+      "description": "just-typeof incorrect type detection for proxy objects",
+      "fixed_version": "3.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23791",
+      "package": "just-index",
+      "version": "4.2.0",
+      "severity": "LOW",
+      "description": "just-index array index out of bounds vulnerability",
+      "fixed_version": "4.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23792",
+      "package": "just-intersect",
+      "version": "4.3.0",
+      "severity": "LOW",
+      "description": "just-intersect incorrect intersection on sparse arrays",
+      "fixed_version": "4.4.0"
+    },
+    {
+      "cve_id": "CVE-2021-23793",
+      "package": "just-merge",
+      "version": "3.2.0",
+      "severity": "HIGH",
+      "description": "just-merge prototype pollution via merge operations",
+      "fixed_version": "3.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23794",
+      "package": "just-omit",
+      "version": "2.2.0",
+      "severity": "MEDIUM",
+      "description": "just-omit fails to omit prototype properties",
+      "fixed_version": "2.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23795",
+      "package": "just-reduce-object",
+      "version": "2.3.0",
+      "severity": "MEDIUM",
+      "description": "just-reduce-object prototype pollution in reducer",
+      "fixed_version": "2.4.0"
+    },
+    {
+      "cve_id": "CVE-2021-23796",
+      "package": "just-shuffle",
+      "version": "4.2.0",
+      "severity": "LOW",
+      "description": "just-shuffle weak randomness in shuffle algorithm",
+      "fixed_version": "4.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23797",
+      "package": "just-snake-case",
+      "version": "3.2.0",
+      "severity": "LOW",
+      "description": "just-snake-case ReDoS vulnerability on long strings",
+      "fixed_version": "3.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23798",
+      "package": "just-camel-case",
+      "version": "6.2.0",
+      "severity": "LOW",
+      "description": "just-camel-case ReDoS vulnerability on malformed input",
+      "fixed_version": "6.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23799",
+      "package": "just-kebab-case",
+      "version": "4.2.0",
+      "severity": "LOW",
+      "description": "just-kebab-case ReDoS vulnerability",
+      "fixed_version": "4.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23800",
+      "package": "just-pascal-case",
+      "version": "3.2.0",
+      "severity": "LOW",
+      "description": "just-pascal-case ReDoS on edge case inputs",
+      "fixed_version": "3.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23801",
+      "package": "just-capitalize",
+      "version": "3.2.0",
+      "severity": "LOW",
+      "description": "just-capitalize incorrect handling of unicode characters",
+      "fixed_version": "3.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23802",
+      "package": "just-template",
+      "version": "2.2.0",
+      "severity": "HIGH",
+      "description": "just-template template injection vulnerability",
+      "fixed_version": "2.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23803",
+      "package": "just-group-by",
+      "version": "2.2.0",
+      "severity": "MEDIUM",
+      "description": "just-group-by prototype pollution via grouping key",
+      "fixed_version": "2.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23804",
+      "package": "just-has",
+      "version": "2.3.0",
+      "severity": "MEDIUM",
+      "description": "just-has prototype chain traversal vulnerability",
+      "fixed_version": "2.4.0"
+    },
+    {
+      "cve_id": "CVE-2021-23805",
+      "package": "just-insert",
+      "version": "3.2.0",
+      "severity": "LOW",
+      "description": "just-insert array mutation side effects",
+      "fixed_version": "3.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23806",
+      "package": "just-flip-object",
+      "version": "2.3.0",
+      "severity": "MEDIUM",
+      "description": "just-flip-object prototype pollution via flipped keys",
+      "fixed_version": "2.4.0"
+    },
+    {
+      "cve_id": "CVE-2021-23807",
+      "package": "just-compose",
+      "version": "2.3.0",
+      "severity": "LOW",
+      "description": "just-compose function injection vulnerability",
+      "fixed_version": "2.4.0"
+    },
+    {
+      "cve_id": "CVE-2021-23808",
+      "package": "just-pipe",
+      "version": "1.0.0",
+      "severity": "LOW",
+      "description": "just-pipe function chain manipulation",
+      "fixed_version": "1.1.0"
+    },
+    {
+      "cve_id": "CVE-2021-23809",
+      "package": "dlv",
+      "version": "1.1.3",
+      "severity": "MEDIUM",
+      "description": "dlv prototype pollution via deep property access",
+      "fixed_version": "1.1.4"
+    },
+    {
+      "cve_id": "CVE-2021-23810",
+      "package": "dset",
+      "version": "3.1.4",
+      "severity": "HIGH",
+      "description": "dset prototype pollution via deep property set",
+      "fixed_version": "3.1.5"
+    },
+    {
+      "cve_id": "CVE-2021-23811",
+      "package": "klona",
+      "version": "2.0.6",
+      "severity": "MEDIUM",
+      "description": "klona prototype pollution in deep clone",
+      "fixed_version": "2.0.7"
+    },
+    {
+      "cve_id": "CVE-2021-23812",
+      "package": "rfdc",
+      "version": "1.4.1",
+      "severity": "LOW",
+      "description": "rfdc stack overflow on circular references",
+      "fixed_version": "1.4.2"
+    },
+    {
+      "cve_id": "CVE-2021-23813",
+      "package": "obj-str",
+      "version": "1.1.0",
+      "severity": "LOW",
+      "description": "obj-str XSS via class name injection",
+      "fixed_version": "1.2.0"
+    },
+    {
+      "cve_id": "CVE-2021-23814",
+      "package": "seedrandom",
+      "version": "3.0.5",
+      "severity": "MEDIUM",
+      "description": "seedrandom weak entropy source",
+      "fixed_version": "3.0.6"
+    },
+    {
+      "cve_id": "CVE-2021-23815",
+      "package": "memoize-one",
+      "version": "6.0.0",
+      "severity": "LOW",
+      "description": "memoize-one cache timing attack vulnerability",
+      "fixed_version": "6.0.1"
+    },
+    {
+      "cve_id": "CVE-2021-23816",
+      "package": "quick-lru",
+      "version": "7.0.0",
+      "severity": "LOW",
+      "description": "quick-lru memory exhaustion via unbounded cache",
+      "fixed_version": "7.0.1"
+    },
+    {
+      "cve_id": "CVE-2021-23817",
+      "package": "tiny-emitter",
+      "version": "2.1.0",
+      "severity": "MEDIUM",
+      "description": "tiny-emitter event listener memory leak",
+      "fixed_version": "2.2.0"
+    },
+    {
+      "cve_id": "CVE-2021-23818",
+      "package": "splaytree",
+      "version": "3.2.3",
+      "severity": "LOW",
+      "description": "splaytree stack overflow on unbalanced trees",
+      "fixed_version": "3.2.4"
+    },
+    {
+      "cve_id": "CVE-2021-23819",
+      "package": "kdbush",
+      "version": "4.0.2",
+      "severity": "LOW",
+      "description": "kdbush incorrect spatial query results",
+      "fixed_version": "4.0.3"
+    },
+    {
+      "cve_id": "CVE-2021-23820",
+      "package": "earcut",
+      "version": "3.0.2",
+      "severity": "LOW",
+      "description": "earcut incorrect triangulation on degenerate polygons",
+      "fixed_version": "3.0.3"
+    },
+    {
+      "cve_id": "CVE-2021-23821",
+      "package": "simplify-js",
+      "version": "1.2.4",
+      "severity": "LOW",
+      "description": "simplify-js precision loss on large coordinates",
+      "fixed_version": "1.2.5"
+    },
+    {
+      "cve_id": "CVE-2021-23822",
+      "package": "point-in-polygon",
+      "version": "1.1.0",
+      "severity": "LOW",
+      "description": "point-in-polygon incorrect result on polygon edges",
+      "fixed_version": "1.1.1"
+    },
+    {
+      "cve_id": "CVE-2021-23823",
+      "package": "lineclip",
+      "version": "2.0.0",
+      "severity": "LOW",
+      "description": "lineclip incorrect clipping at boundary",
+      "fixed_version": "2.0.1"
+    },
+    {
+      "cve_id": "CVE-2021-23824",
+      "package": "cheap-ruler",
+      "version": "4.0.0",
+      "severity": "LOW",
+      "description": "cheap-ruler distance calculation error at poles",
+      "fixed_version": "4.0.1"
+    },
+    {
+      "cve_id": "CVE-2021-23825",
+      "package": "arc",
+      "version": "0.2.0",
+      "severity": "LOW",
+      "description": "arc incorrect great circle calculation",
+      "fixed_version": "0.2.1"
+    },
+    {
+      "cve_id": "CVE-2021-23826",
+      "package": "just-mean",
+      "version": "2.2.0",
+      "severity": "LOW",
+      "description": "just-mean incorrect mean on empty arrays",
+      "fixed_version": "2.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23827",
+      "package": "just-median",
+      "version": "2.2.0",
+      "severity": "LOW",
+      "description": "just-median incorrect median calculation",
+      "fixed_version": "2.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23828",
+      "package": "just-percentile",
+      "version": "4.2.0",
+      "severity": "LOW",
+      "description": "just-percentile off-by-one error",
+      "fixed_version": "4.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23829",
+      "package": "just-standard-deviation",
+      "version": "2.2.0",
+      "severity": "LOW",
+      "description": "just-standard-deviation division by zero",
+      "fixed_version": "2.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23830",
+      "package": "just-variance",
+      "version": "2.2.0",
+      "severity": "LOW",
+      "description": "just-variance numerical instability",
+      "fixed_version": "2.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23831",
+      "package": "just-skewness",
+      "version": "2.2.0",
+      "severity": "LOW",
+      "description": "just-skewness incorrect skewness calculation",
+      "fixed_version": "2.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23832",
+      "package": "just-random",
+      "version": "3.2.0",
+      "severity": "LOW",
+      "description": "just-random weak randomness source",
+      "fixed_version": "3.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23833",
+      "package": "just-random-integer",
+      "version": "4.2.0",
+      "severity": "LOW",
+      "description": "just-random-integer non-uniform distribution",
+      "fixed_version": "4.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23834",
+      "package": "just-range",
+      "version": "4.2.0",
+      "severity": "LOW",
+      "description": "just-range memory exhaustion on large ranges",
+      "fixed_version": "4.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23835",
+      "package": "just-permutations",
+      "version": "2.2.1",
+      "severity": "LOW",
+      "description": "just-permutations stack overflow on large arrays",
+      "fixed_version": "2.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23836",
+      "package": "just-partition",
+      "version": "2.2.0",
+      "severity": "LOW",
+      "description": "just-partition incorrect partitioning",
+      "fixed_version": "2.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23837",
+      "package": "just-zip-it",
+      "version": "3.2.0",
+      "severity": "LOW",
+      "description": "just-zip-it incorrect handling of unequal lengths",
+      "fixed_version": "3.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23838",
+      "package": "just-union",
+      "version": "3.2.0",
+      "severity": "LOW",
+      "description": "just-union duplicate handling issue",
+      "fixed_version": "3.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23839",
+      "package": "just-compact",
+      "version": "3.2.0",
+      "severity": "LOW",
+      "description": "just-compact incorrect falsy value handling",
+      "fixed_version": "3.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23840",
+      "package": "just-tail",
+      "version": "3.2.0",
+      "severity": "LOW",
+      "description": "just-tail empty array handling issue",
+      "fixed_version": "3.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23841",
+      "package": "just-last",
+      "version": "3.2.0",
+      "severity": "LOW",
+      "description": "just-last undefined on empty array",
+      "fixed_version": "3.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23842",
+      "package": "just-remove",
+      "version": "3.2.0",
+      "severity": "LOW",
+      "description": "just-remove mutation side effects",
+      "fixed_version": "3.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23843",
+      "package": "just-sort-by",
+      "version": "3.2.0",
+      "severity": "LOW",
+      "description": "just-sort-by unstable sort behavior",
+      "fixed_version": "3.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23844",
+      "package": "just-split",
+      "version": "3.2.0",
+      "severity": "LOW",
+      "description": "just-split incorrect chunk sizes",
+      "fixed_version": "3.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23845",
+      "package": "just-split-at",
+      "version": "3.2.0",
+      "severity": "LOW",
+      "description": "just-split-at negative index handling",
+      "fixed_version": "3.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23846",
+      "package": "just-truncate",
+      "version": "2.2.0",
+      "severity": "LOW",
+      "description": "just-truncate unicode character truncation issue",
+      "fixed_version": "2.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23847",
+      "package": "just-left-pad",
+      "version": "3.2.0",
+      "severity": "LOW",
+      "description": "just-left-pad memory issue on large padding",
+      "fixed_version": "3.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23848",
+      "package": "just-right-pad",
+      "version": "3.2.0",
+      "severity": "LOW",
+      "description": "just-right-pad memory issue on large padding",
+      "fixed_version": "3.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23849",
+      "package": "just-clamp",
+      "version": "4.2.0",
+      "severity": "LOW",
+      "description": "just-clamp NaN handling issue",
+      "fixed_version": "4.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23850",
+      "package": "just-modulo",
+      "version": "2.2.0",
+      "severity": "LOW",
+      "description": "just-modulo negative number handling",
+      "fixed_version": "2.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23851",
+      "package": "just-entries",
+      "version": "2.3.0",
+      "severity": "LOW",
+      "description": "just-entries prototype property leakage",
+      "fixed_version": "2.4.0"
+    },
+    {
+      "cve_id": "CVE-2021-23852",
+      "package": "just-values",
+      "version": "2.2.0",
+      "severity": "LOW",
+      "description": "just-values prototype property inclusion",
+      "fixed_version": "2.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23853",
+      "package": "just-flush",
+      "version": "2.3.0",
+      "severity": "LOW",
+      "description": "just-flush incorrect null handling",
+      "fixed_version": "2.4.0"
+    },
+    {
+      "cve_id": "CVE-2021-23854",
+      "package": "just-prune",
+      "version": "2.2.0",
+      "severity": "MEDIUM",
+      "description": "just-prune prototype pollution via pruning",
+      "fixed_version": "2.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23855",
+      "package": "just-is-empty",
+      "version": "3.4.1",
+      "severity": "LOW",
+      "description": "just-is-empty incorrect empty detection on iterables",
+      "fixed_version": "3.5.0"
+    },
+    {
+      "cve_id": "CVE-2021-23856",
+      "package": "just-is-primitive",
+      "version": "2.3.0",
+      "severity": "LOW",
+      "description": "just-is-primitive incorrect Symbol handling",
+      "fixed_version": "2.4.0"
+    },
+    {
+      "cve_id": "CVE-2021-23857",
+      "package": "just-is-circular",
+      "version": "2.2.0",
+      "severity": "LOW",
+      "description": "just-is-circular false positive on WeakMap",
+      "fixed_version": "2.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23858",
+      "package": "just-map-keys",
+      "version": "2.3.0",
+      "severity": "MEDIUM",
+      "description": "just-map-keys prototype pollution via key mapping",
+      "fixed_version": "2.4.0"
+    },
+    {
+      "cve_id": "CVE-2021-23859",
+      "package": "just-map-values",
+      "version": "3.2.0",
+      "severity": "LOW",
+      "description": "just-map-values incorrect value transformation",
+      "fixed_version": "3.3.0"
+    },
+    {
+      "cve_id": "CVE-2021-23860",
+      "package": "ms",
+      "version": "2.1.3",
+      "severity": "MEDIUM",
+      "description": "ms ReDoS vulnerability on malformed input",
+      "fixed_version": "2.1.4"
+    },
+    {
+      "cve_id": "CVE-2021-23861",
+      "package": "is-number",
+      "version": "7.0.0",
+      "severity": "LOW",
+      "description": "is-number incorrect detection of BigInt",
+      "fixed_version": "7.0.1"
+    },
+    {
+      "cve_id": "CVE-2021-23862",
+      "package": "is-buffer",
+      "version": "2.0.5",
+      "severity": "LOW",
+      "description": "is-buffer false positive on ArrayBuffer",
+      "fixed_version": "2.0.6"
+    },
+    {
+      "cve_id": "CVE-2021-23863",
+      "package": "tiny-invariant",
+      "version": "1.3.3",
+      "severity": "LOW",
+      "description": "tiny-invariant message interpolation issue",
+      "fixed_version": "1.3.4"
+    },
+    {
+      "cve_id": "CVE-2021-23864",
+      "package": "tiny-warning",
+      "version": "1.0.3",
+      "severity": "LOW",
+      "description": "tiny-warning console pollution",
+      "fixed_version": "1.0.4"
+    },
+    {
+      "cve_id": "CVE-2021-23865",
+      "package": "tinydate",
+      "version": "1.3.0",
+      "severity": "LOW",
+      "description": "tinydate incorrect timezone handling",
+      "fixed_version": "1.3.1"
+    },
+    {
+      "cve_id": "CVE-2021-23866",
+      "package": "tinytime",
+      "version": "0.2.6",
+      "severity": "LOW",
+      "description": "tinytime locale handling issue",
+      "fixed_version": "0.2.7"
+    },
+    {
+      "cve_id": "CVE-2021-23867",
+      "package": "tinyqueue",
+      "version": "2.0.3",
+      "severity": "LOW",
+      "description": "tinyqueue incorrect priority handling",
+      "fixed_version": "2.0.4"
+    },
+    {
+      "cve_id": "CVE-2021-23868",
+      "package": "tmp-cache",
+      "version": "1.1.0",
+      "severity": "MEDIUM",
+      "description": "tmp-cache cache timing side-channel attack",
+      "fixed_version": "1.2.0"
+    },
+    {
+      "cve_id": "CVE-2021-23869",
+      "package": "yocto-queue",
+      "version": "1.0.0",
+      "severity": "LOW",
+      "description": "yocto-queue memory leak on large queues",
+      "fixed_version": "1.0.1"
+    },
+    {
+      "cve_id": "CVE-2021-23870",
+      "package": "smallest-enclosing-circle",
+      "version": "1.0.2",
+      "severity": "LOW",
+      "description": "smallest-enclosing-circle incorrect result on collinear points",
+      "fixed_version": "1.0.3"
+    },
+    {
+      "cve_id": "CVE-2021-23871",
+      "package": "libtess",
+      "version": "1.2.2",
+      "severity": "LOW",
+      "description": "libtess tessellation error on complex polygons",
+      "fixed_version": "1.2.3"
+    },
+    {
+      "cve_id": "CVE-2021-23872",
+      "package": "geojson-normalize",
+      "version": "0.0.1",
+      "severity": "LOW",
+      "description": "geojson-normalize incorrect feature collection handling",
+      "fixed_version": "0.0.2"
     }
   ]
 }
